@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60C4E96E27911E2000728BBA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4E96D27911E2000728BBA /* LoginResponse.swift */; };
+		60C4E970279122A400728BBA /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C4E96F279122A400728BBA /* AuthService.swift */; };
 		60D086D52787E06F001CFD39 /* CadebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D086D42787E06F001CFD39 /* CadebookApp.swift */; };
 		60D086D72787E06F001CFD39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D086D62787E06F001CFD39 /* ContentView.swift */; };
 		60D086D92787E070001CFD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D086D82787E070001CFD39 /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60C4E96D27911E2000728BBA /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		60C4E96F279122A400728BBA /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		60D086D12787E06F001CFD39 /* Cadebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cadebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D086D42787E06F001CFD39 /* CadebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadebookApp.swift; sourceTree = "<group>"; };
 		60D086D62787E06F001CFD39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				60D086D42787E06F001CFD39 /* CadebookApp.swift */,
 				60D086D62787E06F001CFD39 /* ContentView.swift */,
 				60D086FE2787E249001CFD39 /* LoginView.swift */,
+				60C4E96D27911E2000728BBA /* LoginResponse.swift */,
+				60C4E96F279122A400728BBA /* AuthService.swift */,
 				60D086D82787E070001CFD39 /* Assets.xcassets */,
 				60D086DA2787E070001CFD39 /* Preview Content */,
 			);
@@ -262,6 +268,8 @@
 			files = (
 				60D086FF2787E249001CFD39 /* LoginView.swift in Sources */,
 				60D086D72787E06F001CFD39 /* ContentView.swift in Sources */,
+				60C4E970279122A400728BBA /* AuthService.swift in Sources */,
+				60C4E96E27911E2000728BBA /* LoginResponse.swift in Sources */,
 				60D086D52787E06F001CFD39 /* CadebookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +439,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +469,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
